@@ -8,7 +8,7 @@ const Routes2 = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/flights" element={<ListFligths />} />
+      <Route path="/flights/:id" element={<ListFligths />} />
     </Routes>
   );
 };
