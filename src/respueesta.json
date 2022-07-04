@@ -1,0 +1,90 @@
+{
+    "type": "flight-offer",
+    "id": "6",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "lastTicketingDate": "2022-07-04",
+    "numberOfBookableSeats": 3,
+    "itineraries": [
+        {
+            "duration": "PT1H33M",
+            "segments": [
+                {
+                    "departure": {
+                        "iataCode": "SFO",
+                        "terminal": "2",
+                        "at": "2022-12-01T06:00:00"
+                    },
+                    "arrival": {
+                        "iataCode": "LAX",
+                        "terminal": "2",
+                        "at": "2022-12-01T07:33:00"
+                    },
+                    "carrierCode": "DL",
+                    "number": "1625",
+                    "aircraft": {
+                        "code": "221"
+                    },
+                    "operating": {
+                        "carrierCode": "DL"
+                    },
+                    "duration": "PT1H33M",
+                    "id": "61",
+                    "numberOfStops": 0,
+                    "blacklistedInEU": false
+                }
+            ]
+        }
+    ],
+    "price": {
+        "currency": "EUR",
+        "total": "46.13",
+        "base": "30.00",
+        "fees": [
+            {
+                "amount": "0.00",
+                "type": "SUPPLIER"
+            },
+            {
+                "amount": "0.00",
+                "type": "TICKETING"
+            }
+        ],
+        "grandTotal": "46.13"
+    },
+    "pricingOptions": {
+        "fareType": [
+            "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+        "DL"
+    ],
+    "travelerPricings": [
+        {
+            "travelerId": "1",
+            "fareOption": "STANDARD",
+            "travelerType": "ADULT",
+            "price": {
+                "currency": "EUR",
+                "total": "46.13",
+                "base": "30.00"
+            },
+            "fareDetailsBySegment": [
+                {
+                    "segmentId": "61",
+                    "cabin": "ECONOMY",
+                    "fareBasis": "VAVNA0BQ",
+                    "brandedFare": "BASICECON",
+                    "class": "E",
+                    "includedCheckedBags": {
+                        "quantity": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
